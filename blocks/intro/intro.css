@@ -1,0 +1,15 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+
+.intro {
+    margin: 92px 0 92px 140px;
+    color: white;
+    max-width: 690px;
+}
+
+@media (max-width: 1024px) {
+    .intro {
+        margin: 92px 0 92px 15px;
+    }
+}
