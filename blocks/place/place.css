@@ -1,11 +1,10 @@
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
-@import url(./__paragraph/_type/place__paragraph_type_first.css);
-@import url(./__paragraph/_type/place__paragraph_type_second.css);
+@import url(./__paragraph/_type/place__paragraph_type_about.css);
+@import url(./__paragraph/_type/place__paragraph_type_description.css);
 @import url(./__title/place__title.css);
-@import url(./__website/website.css);
-@import url(./__website/_type/place__website_type_url-heading.css);
-@import url(./__website/_type/place__website_type_link.css);
+@import url(./__website/_type/place__website_info_url-heading.css);
+@import url(./__website/_type/place__website_info_link.css);
 
 
 .place {

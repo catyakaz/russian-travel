@@ -7,6 +7,8 @@
     line-height: 28px;
     opacity: 1;
     transition: opacity 1s linear;
+    display: flex;
+    flex-direction: row;
 }
 .header__lang-link:hover {
     opacity: .8;

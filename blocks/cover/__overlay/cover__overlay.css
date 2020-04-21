@@ -1,5 +1,5 @@
-.cover__overlay {
-    background-image: url(/home/kate/dev/russian-travel/images/__background.jpg);
+/* .cover__overlay {
+    background-image: url(../../../images/__background.jpg);
     background-size: contain;
     display: flex;
     background-repeat: no-repeat;
@@ -19,11 +19,11 @@
     left: 0;
     right: 0;
     bottom:0;
-    background: rgba(0,0,0,0.3);
+    background: rgba(42,44,47,0.3);
     transition: all 1s linear;
 }   
 
 .cover__overlay:hover::before{
     background: rgba(0, 0, 0, 0.8);
     cursor: pointer;
-}
+} */

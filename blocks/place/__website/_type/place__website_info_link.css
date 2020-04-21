@@ -1,4 +1,4 @@
-.place__website_type_link {
+.place__website_info_link {
     color: white;
     grid-area: link;
     align-self: end;
@@ -6,12 +6,12 @@
     opacity: 1;
     transition: opacity 1s linear;
 }
-.place__website_type_link:hover {
+.place__website_info_link:hover {
     opacity: .8;
 }
 
 @media (max-width: 320px) {
-    .place__website_type_link {
+    .place__website_info_link {
         display: none;
     }
 }
