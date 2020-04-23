@@ -1,6 +1,6 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_choice/header__lang-link_choice_ru.css);
+@import url(./__lang-link/_choice/header__lang-link_choice_active.css);
 
 .header {
     display: flex;
@@ -11,7 +11,7 @@
     justify-content: space-between;
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px) and (max-width: 425px) {
     .header {
         padding-top: 16px;
         margin: 0 16px 20px;

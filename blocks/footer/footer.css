@@ -13,14 +13,15 @@
     justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 580px) {
     .footer{
-        padding: 0 30px 20px;
+        padding: 15px 30px 20px;
     }
 }
-
-@media (min-width: 320px) and (max-width:425px) {
+ 
+@media (min-width: 320px) and (max-width: 580px) {
     .footer {
         flex-direction: column;
+        padding: 15px 20px;
     }
 }

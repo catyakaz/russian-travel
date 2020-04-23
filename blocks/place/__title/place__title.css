@@ -3,15 +3,25 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    max-width: 460px;
-    grid-area: header;
-    align-self: end;
     margin: 0;
 }
 
 @media (max-width: 768px) {
-    .place__title{
+    .place__title {
+        font-style: normal;
+        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
+        align-self: end;
+        /* width: 340px; */
+    }
+}
+
+@media  (min-width:320px) and (max-width: 425px) {
+    .place__title {
+        padding: 0 20px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
