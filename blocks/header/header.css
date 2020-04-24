@@ -1,20 +1,16 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_choice/header__lang-link_choice_active.css);
+@import url(./__container/header__container.css);
 
 .header {
-    display: flex;
+    margin: 0 auto;
+    max-width: 1184px;
+    /* display: flex;
     flex-direction: row;
     padding-top: 28px;
     margin: 0 48px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 
-@media (min-width: 320px) and (max-width: 425px) {
-    .header {
-        padding-top: 16px;
-        margin: 0 16px 20px;
-        height: 42px;
-    }
-}

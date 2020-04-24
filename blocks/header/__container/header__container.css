@@ -1,0 +1,16 @@
+.header__container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 28px;
+    margin: 0 48px;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .header__container {
+        padding-top: 16px;
+        margin: 0 16px 20px;
+        height: 42px;
+    }
+} 
