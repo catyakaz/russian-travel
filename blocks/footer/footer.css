@@ -6,7 +6,7 @@
 
 .footer {
     max-width: 1184px;
-    margin: 0 auto;
+    margin: 92px auto 0;
     padding-right: 48px;
     padding-left: 48px;
     padding-bottom: 20px;
@@ -15,16 +15,17 @@
     justify-content: space-between;
 }
 
-@media (max-width: 1024px) and (min-width: 580px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .footer{
         padding: 15px 30px 20px;
     }
 }
 
  
-@media (min-width: 320px) and (max-width: 580px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .footer {
+        margin: 64px auto 0;
         flex-direction: column;
-        padding: 15px 20px;
+        padding: 0 20px;
     }
 }

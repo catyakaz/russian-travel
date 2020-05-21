@@ -5,12 +5,17 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin: 0 auto;
+    padding-top: 8px;
 }
 
-@media (min-width:320px) and (max-width: 1023px) {
+@media (min-width: 768px)  and (max-width: 1023px) {
     .lead__caption {
-        padding-left: 15px;
+        padding-left: 24px;
     }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}

@@ -5,7 +5,7 @@
     line-height: 18px;
 }
 
-@media (min-width:320px) and (max-width:580px){
+@media (min-width:320px) and (max-width: 767px){
     .footer__list {
         margin: 0 0 32px;
         font-size: 24px;

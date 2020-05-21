@@ -1,23 +1,23 @@
 .header__lang-link {
-    color: white;
-    text-decoration: none;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-self: end;
     opacity: 1;
     transition: opacity 1s linear;
-    display: flex;
-    flex-direction: row;
 }
+
 .header__lang-link:hover {
-    opacity: .8;
+    opacity: .8;    
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
-    .header__lang-link{
+    .header__lang-link {
         font-size: 18px;
         line-height: 24px;
     }
 }
-
