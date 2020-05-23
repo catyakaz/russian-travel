@@ -6,7 +6,8 @@
     color: #ffffff;
     text-decoration: none;
     display: flex;
-    align-self: end;
+    /* align-self: end;  */
+    align-items: flex-end;
     opacity: 1;
     transition: opacity 1s linear;
 }
