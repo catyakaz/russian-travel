@@ -14,3 +14,5 @@ HTML5, CCS3, Nested БЭМ и Pixel Perfect.
 
 ### Ссылка
 https://catyakaz.github.io/russian-travel/
+
+### Проект завершен
